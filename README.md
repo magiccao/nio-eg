@@ -1,6 +1,7 @@
 # nio-eg
->> one java nio server example based sdk
->> one java nio server example based netty
+>> 1. one java nio server example based sdk
+
+>> 2. one java nio server example based netty
 
 ***
 ## 组成
