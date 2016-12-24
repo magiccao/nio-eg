@@ -1,11 +1,11 @@
 /**
- * Created by d.cao on 2016/12/23.
+ * Created by d.cao on 2016/12/22.
  */
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        Client client = new Client();
-        client.connect("127.0.0.1", 8080);
+        Server server = new Server();
+        server.bind(8080);
     }
 
 }

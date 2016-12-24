@@ -12,7 +12,6 @@ public class Message implements Serializable {
     private int op; // 1B
     private byte[] body;
 
-    public Message() {}
     public Message(int type, int length, int op, byte[] body) {
         this.type = type;
         this.length = length;
@@ -23,7 +22,8 @@ public class Message implements Serializable {
     public String toString() {
         return "type: " + type + ", " +
                 "length: " + length + ", " +
-                "op: " + op;
+                "op: " + op + ", " +
+                "body: " + new String(body);
     }
 
 }
